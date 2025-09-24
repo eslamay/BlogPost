@@ -38,23 +38,25 @@ This project demonstrates how to build a modern, scalable web application from s
 
 ## 📂 Project Structure
 
+```bash
 BlogPost-Fullstack/
 │
-├── backend/ # ASP.NET Core Web API
-│ ├── Controllers/
-│ ├── Models/
-│ ├── Services/
-│ ├── Data/
-│ └── Program.cs
+├── backend/        # ASP.NET Core Web API
+│   ├── Controllers/
+│   ├── Models/
+│   ├── Services/
+│   ├── Data/
+│   └── Program.cs
 │
-├── frontend/ # Angular Application
-│ ├── src/
-│ │ ├── app/
-│ │ ├── assets/
-│ │ └── environments/
-│ └── angular.json
+├── frontend/       # Angular Application
+│   ├── src/
+│   │   ├── app/
+│   │   ├── assets/
+│   │   └── environments/
+│   └── angular.json
 │
 └── README.md
+```
 
 
 ---
@@ -66,13 +68,13 @@ BlogPost-Fullstack/
 git clone https://github.com/username/BlogPost-Fullstack.git
 cd BlogPost-Fullstack
 ```
-###2️⃣ Setup Backend (ASP.NET Core API)
+### 2️⃣ Setup Backend (ASP.NET Core API)
 ```bash
 cd backend
 dotnet restore
 dotnet run
 ```
-###3️⃣ Setup Frontend (Angular)
+### 3️⃣ Setup Frontend (Angular)
 ```bash
 cd frontend
 npm install
@@ -88,14 +90,16 @@ Different roles (e.g., Admin, User) supported.
 Angular Auth Guards protect routes.
 
 HTTP Interceptors attach JWT tokens automatically to requests.
+
 ---
 ## 📸 Image Upload
 
 Users can upload an image file from Angular UI.
 
 The image is sent to the ASP.NET Core Web API and stored securely.
+
 ---
-##✅ Best Practices
+## ✅ Best Practices
 
 Clean architecture with Dependency Injection.
 
